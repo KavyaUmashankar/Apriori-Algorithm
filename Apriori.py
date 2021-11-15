@@ -21,7 +21,7 @@ import numpy as np
 from itertools import combinations
 
 
-# In[20]:
+# In[2]:
 
 
 def read_file_and_prepare_data(filename="BestBuy.csv",colname = "Transaction"):
@@ -63,7 +63,7 @@ def read_file_and_prepare_data(filename="BestBuy.csv",colname = "Transaction"):
     return np.array(list2)
 
 
-# In[21]:
+# In[3]:
 
 
 def convert_numbers_to_names(ck):
@@ -89,7 +89,7 @@ def convert_numbers_to_names(ck):
     return list_form
 
 
-# In[22]:
+# In[4]:
 
 
 def create_1_itemset(X):
@@ -107,7 +107,7 @@ def create_1_itemset(X):
     return c1
 
 
-# In[23]:
+# In[5]:
 
 
 def create_k_itemset(freq_item, k):
@@ -132,7 +132,7 @@ def create_k_itemset(freq_item, k):
     return ck
 
 
-# In[24]:
+# In[6]:
 
 
 def create_freq_item(X, ck, min_support):
@@ -167,7 +167,7 @@ def create_freq_item(X, ck, min_support):
     return freq_item, item_support
 
 
-# In[32]:
+# In[7]:
 
 
 def apriori(X, min_support=0.5):
@@ -196,7 +196,7 @@ def apriori(X, min_support=0.5):
     return freq_print,freq_items, item_support_dict
 
 
-# In[26]:
+# In[8]:
 
 
 def create_rules(freq_items, item_support_dict, min_confidence):
@@ -246,7 +246,7 @@ def create_rules(freq_items, item_support_dict, min_confidence):
     return rules_df
 
 
-# In[27]:
+# In[9]:
 
 
 def compute_conf(freq_items, item_support_dict, freq_set, subsets, min_confidence=0.5):
@@ -272,7 +272,7 @@ def compute_conf(freq_items, item_support_dict, freq_set, subsets, min_confidenc
     return rules, right_hand_side
 
 
-# In[36]:
+# In[12]:
 
 
 def run():
@@ -286,18 +286,20 @@ def run():
         read_file = pd.read_excel(file)
         read_file.to_csv (file, index = None, header=True)
     X = read_file_and_prepare_data(file)
-    try:
-        min_support = float(input("Enter the SUPPORT value : "))
-        if not min_support >=0.0 and min_support <=1.0:
+    while True:
+        try:
+            min_support = float(input("Enter the SUPPORT value in the range of (0.0 - 1.0) : "))
+            if min_support >=0.0 and min_support <=1.0:
+                break
+        except:
             min_support = 0.5
-    except:
-        min_support = 0.5
-    try:
-        min_confidence = float(input("Enter the CONFIDENCE value : "))
-        if not min_confidence >= 0.0 and min_confidence <= 1.0:
+    while True:
+        try:
+            min_confidence = float(input("Enter the CONFIDENCE value in the range of (0.0 - 1.0) : "))
+            if min_confidence >= 0.0 and min_confidence <= 1.0:
+                break
+        except:
             min_confidence = 0.5
-    except:
-        min_confidence = 0.5
     freq_print,freq_items, item_support_dict = apriori(X, min_support)
     print("-"*120)
     print("The Minimum support value is : ",min_support)
@@ -316,7 +318,7 @@ def run():
     print("-"*120)
 
 
-# In[38]:
+# In[13]:
 
 
 run()
@@ -343,7 +345,7 @@ def file_format(filename):
     return_df = pd.DataFrame(split, columns=['Transaction ID', 'Transaction'])
     return_df.to_csv(filename,index=False)
     print(return_df)
-#file_format("custom_dataset.csv")
+#file_format("files/custom_dataset.csv")
 
 
 # In[ ]:
