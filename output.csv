@@ -1,0 +1,411 @@
+,First_item,buys,Second_item,confidence_value
+0,['Running Shoe'],->,['Modern Pants'],0.6428571428571429
+1,['Modern Pants'],->,['Running Shoe'],0.9
+2,['Socks'],->,['Modern Pants'],0.6923076923076923
+3,['Modern Pants'],->,['Socks'],0.9
+4,['Modern Pants'],->,['Sweatshirts'],1.0
+5,['Sweatshirts'],->,['Modern Pants'],0.7692307692307692
+6,['Socks'],->,['Running Shoe'],0.8461538461538461
+7,['Running Shoe'],->,['Socks'],0.7857142857142858
+8,['Running Shoe'],->,['Sweatshirts'],0.7857142857142858
+9,['Sweatshirts'],->,['Running Shoe'],0.8461538461538461
+10,['Socks'],->,['Sweatshirts'],0.923076923076923
+11,['Sweatshirts'],->,['Socks'],0.923076923076923
+12,['Rash Guard'],->,['Modern Pants'],0.5
+13,['Modern Pants'],->,['Rash Guard'],0.6
+14,['Modern Pants'],->,['Tech Pants'],0.6
+15,['Tech Pants'],->,['Modern Pants'],0.6666666666666666
+16,['Running Shoe'],->,['Rash Guard'],0.5
+17,['Rash Guard'],->,['Running Shoe'],0.5833333333333334
+18,['Tech Pants'],->,['Running Shoe'],0.6666666666666666
+19,['Socks'],->,['Rash Guard'],0.4615384615384615
+20,['Rash Guard'],->,['Socks'],0.5
+21,['Socks'],->,['Tech Pants'],0.4615384615384615
+22,['Tech Pants'],->,['Socks'],0.6666666666666666
+23,['Rash Guard'],->,['Sweatshirts'],0.5
+24,['Sweatshirts'],->,['Rash Guard'],0.4615384615384615
+25,['Tech Pants'],->,['Sweatshirts'],0.6666666666666666
+26,['Sweatshirts'],->,['Tech Pants'],0.4615384615384615
+27,['Rash Guard'],->,['Hoodies'],0.6666666666666667
+28,['Hoodies'],->,['Rash Guard'],1.0
+29,['Tech Pants'],->,['Hoodies'],0.888888888888889
+30,['Hoodies'],->,['Tech Pants'],1.0
+31,['Rash Guard'],->,['Tech Pants'],0.75
+32,['Tech Pants'],->,['Rash Guard'],1.0
+33,['Hoodies'],->,['Swimming Shirt'],0.7499999999999999
+34,['Swimming Shirt'],->,['Hoodies'],0.5454545454545454
+35,['Hoodies'],->,['Dry Fit V-Nick'],0.8749999999999999
+36,['Dry Fit V-Nick'],->,['Hoodies'],0.7777777777777777
+37,['Rash Guard'],->,['Swimming Shirt'],0.8333333333333334
+38,['Swimming Shirt'],->,['Rash Guard'],0.9090909090909091
+39,['Rash Guard'],->,['Dry Fit V-Nick'],0.75
+40,['Dry Fit V-Nick'],->,['Rash Guard'],1.0
+41,['Tech Pants'],->,['Swimming Shirt'],0.7777777777777777
+42,['Swimming Shirt'],->,['Tech Pants'],0.6363636363636362
+43,['Tech Pants'],->,['Dry Fit V-Nick'],0.888888888888889
+44,['Dry Fit V-Nick'],->,['Tech Pants'],0.888888888888889
+45,['Dry Fit V-Nick'],->,['Swimming Shirt'],0.888888888888889
+46,['Swimming Shirt'],->,['Dry Fit V-Nick'],0.7272727272727273
+47,['Swimming Shirt'],->,['Running Shoe'],0.5454545454545454
+48,"['Running Shoe', 'Socks']",->,['Modern Pants'],0.7272727272727273
+49,"['Modern Pants', 'Socks']",->,['Running Shoe'],0.888888888888889
+50,"['Modern Pants', 'Running Shoe']",->,['Socks'],0.888888888888889
+51,['Socks'],->,"['Modern Pants', 'Running Shoe']",0.6153846153846154
+52,['Running Shoe'],->,"['Modern Pants', 'Socks']",0.5714285714285715
+53,['Modern Pants'],->,"['Running Shoe', 'Socks']",0.8
+54,"['Modern Pants', 'Running Shoe']",->,['Sweatshirts'],1.0
+55,"['Sweatshirts', 'Running Shoe']",->,['Modern Pants'],0.8181818181818181
+56,"['Sweatshirts', 'Modern Pants']",->,['Running Shoe'],0.9
+57,['Running Shoe'],->,"['Sweatshirts', 'Modern Pants']",0.6428571428571429
+58,['Modern Pants'],->,"['Sweatshirts', 'Running Shoe']",0.9
+59,['Sweatshirts'],->,"['Modern Pants', 'Running Shoe']",0.6923076923076923
+60,"['Modern Pants', 'Socks']",->,['Sweatshirts'],1.0
+61,"['Sweatshirts', 'Socks']",->,['Modern Pants'],0.75
+62,"['Sweatshirts', 'Modern Pants']",->,['Socks'],0.9
+63,['Socks'],->,"['Sweatshirts', 'Modern Pants']",0.6923076923076923
+64,['Modern Pants'],->,"['Sweatshirts', 'Socks']",0.9
+65,['Sweatshirts'],->,"['Modern Pants', 'Socks']",0.6923076923076923
+66,"['Running Shoe', 'Socks']",->,['Sweatshirts'],0.9090909090909091
+67,"['Sweatshirts', 'Socks']",->,['Running Shoe'],0.8333333333333334
+68,"['Sweatshirts', 'Running Shoe']",->,['Socks'],0.9090909090909091
+69,['Socks'],->,"['Sweatshirts', 'Running Shoe']",0.7692307692307692
+70,['Running Shoe'],->,"['Sweatshirts', 'Socks']",0.7142857142857143
+71,['Sweatshirts'],->,"['Running Shoe', 'Socks']",0.7692307692307692
+72,"['Rash Guard', 'Socks']",->,['Modern Pants'],1.0
+73,"['Modern Pants', 'Socks']",->,['Rash Guard'],0.6666666666666666
+74,"['Modern Pants', 'Rash Guard']",->,['Socks'],1.0
+75,['Socks'],->,"['Modern Pants', 'Rash Guard']",0.4615384615384615
+76,['Rash Guard'],->,"['Modern Pants', 'Socks']",0.5
+77,['Modern Pants'],->,"['Rash Guard', 'Socks']",0.6
+78,"['Modern Pants', 'Socks']",->,['Tech Pants'],0.6666666666666666
+79,"['Tech Pants', 'Socks']",->,['Modern Pants'],1.0
+80,"['Tech Pants', 'Modern Pants']",->,['Socks'],1.0
+81,['Socks'],->,"['Tech Pants', 'Modern Pants']",0.4615384615384615
+82,['Modern Pants'],->,"['Tech Pants', 'Socks']",0.6
+83,['Tech Pants'],->,"['Modern Pants', 'Socks']",0.6666666666666666
+84,"['Modern Pants', 'Rash Guard']",->,['Sweatshirts'],1.0
+85,"['Sweatshirts', 'Rash Guard']",->,['Modern Pants'],1.0
+86,"['Sweatshirts', 'Modern Pants']",->,['Rash Guard'],0.6
+87,['Rash Guard'],->,"['Sweatshirts', 'Modern Pants']",0.5
+88,['Modern Pants'],->,"['Sweatshirts', 'Rash Guard']",0.6
+89,['Sweatshirts'],->,"['Modern Pants', 'Rash Guard']",0.4615384615384615
+90,"['Tech Pants', 'Modern Pants']",->,['Sweatshirts'],1.0
+91,"['Sweatshirts', 'Modern Pants']",->,['Tech Pants'],0.6
+92,"['Sweatshirts', 'Tech Pants']",->,['Modern Pants'],1.0
+93,['Modern Pants'],->,"['Sweatshirts', 'Tech Pants']",0.6
+94,['Tech Pants'],->,"['Sweatshirts', 'Modern Pants']",0.6666666666666666
+95,['Sweatshirts'],->,"['Tech Pants', 'Modern Pants']",0.4615384615384615
+96,"['Rash Guard', 'Socks']",->,['Sweatshirts'],1.0
+97,"['Sweatshirts', 'Socks']",->,['Rash Guard'],0.5
+98,"['Sweatshirts', 'Rash Guard']",->,['Socks'],1.0
+99,['Socks'],->,"['Sweatshirts', 'Rash Guard']",0.4615384615384615
+100,['Rash Guard'],->,"['Sweatshirts', 'Socks']",0.5
+101,['Sweatshirts'],->,"['Rash Guard', 'Socks']",0.4615384615384615
+102,"['Tech Pants', 'Socks']",->,['Sweatshirts'],1.0
+103,"['Sweatshirts', 'Socks']",->,['Tech Pants'],0.5
+104,"['Sweatshirts', 'Tech Pants']",->,['Socks'],1.0
+105,['Socks'],->,"['Sweatshirts', 'Tech Pants']",0.4615384615384615
+106,['Tech Pants'],->,"['Sweatshirts', 'Socks']",0.6666666666666666
+107,['Sweatshirts'],->,"['Tech Pants', 'Socks']",0.4615384615384615
+108,"['Modern Pants', 'Rash Guard']",->,['Tech Pants'],1.0
+109,"['Tech Pants', 'Rash Guard']",->,['Modern Pants'],0.6666666666666666
+110,"['Tech Pants', 'Modern Pants']",->,['Rash Guard'],1.0
+111,['Rash Guard'],->,"['Tech Pants', 'Modern Pants']",0.5
+112,['Modern Pants'],->,"['Tech Pants', 'Rash Guard']",0.6
+113,['Tech Pants'],->,"['Modern Pants', 'Rash Guard']",0.6666666666666666
+114,"['Rash Guard', 'Running Shoe']",->,['Tech Pants'],0.8571428571428572
+115,"['Tech Pants', 'Running Shoe']",->,['Rash Guard'],1.0
+116,"['Tech Pants', 'Rash Guard']",->,['Running Shoe'],0.6666666666666666
+117,['Rash Guard'],->,"['Tech Pants', 'Running Shoe']",0.5
+118,['Tech Pants'],->,"['Rash Guard', 'Running Shoe']",0.6666666666666666
+119,"['Rash Guard', 'Socks']",->,['Tech Pants'],1.0
+120,"['Tech Pants', 'Socks']",->,['Rash Guard'],1.0
+121,"['Tech Pants', 'Rash Guard']",->,['Socks'],0.6666666666666666
+122,['Socks'],->,"['Tech Pants', 'Rash Guard']",0.4615384615384615
+123,['Rash Guard'],->,"['Tech Pants', 'Socks']",0.5
+124,['Tech Pants'],->,"['Rash Guard', 'Socks']",0.6666666666666666
+125,"['Tech Pants', 'Rash Guard']",->,['Sweatshirts'],0.6666666666666666
+126,"['Sweatshirts', 'Rash Guard']",->,['Tech Pants'],1.0
+127,"['Sweatshirts', 'Tech Pants']",->,['Rash Guard'],1.0
+128,['Rash Guard'],->,"['Sweatshirts', 'Tech Pants']",0.5
+129,['Tech Pants'],->,"['Sweatshirts', 'Rash Guard']",0.6666666666666666
+130,['Sweatshirts'],->,"['Tech Pants', 'Rash Guard']",0.4615384615384615
+131,"['Tech Pants', 'Rash Guard']",->,['Hoodies'],0.888888888888889
+132,"['Hoodies', 'Rash Guard']",->,['Tech Pants'],1.0
+133,"['Hoodies', 'Tech Pants']",->,['Rash Guard'],1.0
+134,['Rash Guard'],->,"['Hoodies', 'Tech Pants']",0.6666666666666667
+135,['Tech Pants'],->,"['Hoodies', 'Rash Guard']",0.888888888888889
+136,['Hoodies'],->,"['Tech Pants', 'Rash Guard']",1.0
+137,"['Hoodies', 'Rash Guard']",->,['Swimming Shirt'],0.7499999999999999
+138,"['Swimming Shirt', 'Rash Guard']",->,['Hoodies'],0.6
+139,"['Swimming Shirt', 'Hoodies']",->,['Rash Guard'],1.0
+140,['Rash Guard'],->,"['Swimming Shirt', 'Hoodies']",0.5
+141,['Hoodies'],->,"['Swimming Shirt', 'Rash Guard']",0.7499999999999999
+142,['Swimming Shirt'],->,"['Hoodies', 'Rash Guard']",0.5454545454545454
+143,"['Hoodies', 'Rash Guard']",->,['Dry Fit V-Nick'],0.8749999999999999
+144,"['Dry Fit V-Nick', 'Rash Guard']",->,['Hoodies'],0.7777777777777777
+145,"['Dry Fit V-Nick', 'Hoodies']",->,['Rash Guard'],1.0
+146,['Rash Guard'],->,"['Dry Fit V-Nick', 'Hoodies']",0.5833333333333334
+147,['Hoodies'],->,"['Dry Fit V-Nick', 'Rash Guard']",0.8749999999999999
+148,['Dry Fit V-Nick'],->,"['Hoodies', 'Rash Guard']",0.7777777777777777
+149,"['Hoodies', 'Tech Pants']",->,['Swimming Shirt'],0.7499999999999999
+150,"['Swimming Shirt', 'Tech Pants']",->,['Hoodies'],0.8571428571428572
+151,"['Swimming Shirt', 'Hoodies']",->,['Tech Pants'],1.0
+152,['Tech Pants'],->,"['Swimming Shirt', 'Hoodies']",0.6666666666666666
+153,['Hoodies'],->,"['Swimming Shirt', 'Tech Pants']",0.7499999999999999
+154,['Swimming Shirt'],->,"['Hoodies', 'Tech Pants']",0.5454545454545454
+155,"['Hoodies', 'Tech Pants']",->,['Dry Fit V-Nick'],0.8749999999999999
+156,"['Dry Fit V-Nick', 'Tech Pants']",->,['Hoodies'],0.8749999999999999
+157,"['Dry Fit V-Nick', 'Hoodies']",->,['Tech Pants'],1.0
+158,['Tech Pants'],->,"['Dry Fit V-Nick', 'Hoodies']",0.7777777777777777
+159,['Hoodies'],->,"['Dry Fit V-Nick', 'Tech Pants']",0.8749999999999999
+160,['Dry Fit V-Nick'],->,"['Hoodies', 'Tech Pants']",0.7777777777777777
+161,"['Tech Pants', 'Rash Guard']",->,['Swimming Shirt'],0.7777777777777777
+162,"['Swimming Shirt', 'Rash Guard']",->,['Tech Pants'],0.7
+163,"['Swimming Shirt', 'Tech Pants']",->,['Rash Guard'],1.0
+164,['Rash Guard'],->,"['Swimming Shirt', 'Tech Pants']",0.5833333333333334
+165,['Tech Pants'],->,"['Swimming Shirt', 'Rash Guard']",0.7777777777777777
+166,['Swimming Shirt'],->,"['Tech Pants', 'Rash Guard']",0.6363636363636362
+167,"['Tech Pants', 'Rash Guard']",->,['Dry Fit V-Nick'],0.888888888888889
+168,"['Dry Fit V-Nick', 'Rash Guard']",->,['Tech Pants'],0.888888888888889
+169,"['Dry Fit V-Nick', 'Tech Pants']",->,['Rash Guard'],1.0
+170,['Rash Guard'],->,"['Dry Fit V-Nick', 'Tech Pants']",0.6666666666666667
+171,['Tech Pants'],->,"['Dry Fit V-Nick', 'Rash Guard']",0.888888888888889
+172,['Dry Fit V-Nick'],->,"['Tech Pants', 'Rash Guard']",0.888888888888889
+173,"['Dry Fit V-Nick', 'Hoodies']",->,['Swimming Shirt'],0.8571428571428572
+174,"['Swimming Shirt', 'Dry Fit V-Nick']",->,['Hoodies'],0.7499999999999999
+175,"['Swimming Shirt', 'Hoodies']",->,['Dry Fit V-Nick'],1.0
+176,['Dry Fit V-Nick'],->,"['Swimming Shirt', 'Hoodies']",0.6666666666666666
+177,['Hoodies'],->,"['Swimming Shirt', 'Dry Fit V-Nick']",0.7499999999999999
+178,['Swimming Shirt'],->,"['Dry Fit V-Nick', 'Hoodies']",0.5454545454545454
+179,"['Dry Fit V-Nick', 'Rash Guard']",->,['Swimming Shirt'],0.888888888888889
+180,"['Swimming Shirt', 'Dry Fit V-Nick']",->,['Rash Guard'],1.0
+181,"['Swimming Shirt', 'Rash Guard']",->,['Dry Fit V-Nick'],0.8
+182,['Dry Fit V-Nick'],->,"['Swimming Shirt', 'Rash Guard']",0.888888888888889
+183,['Rash Guard'],->,"['Swimming Shirt', 'Dry Fit V-Nick']",0.6666666666666667
+184,['Swimming Shirt'],->,"['Dry Fit V-Nick', 'Rash Guard']",0.7272727272727273
+185,"['Dry Fit V-Nick', 'Tech Pants']",->,['Swimming Shirt'],0.8749999999999999
+186,"['Swimming Shirt', 'Dry Fit V-Nick']",->,['Tech Pants'],0.8749999999999999
+187,"['Swimming Shirt', 'Tech Pants']",->,['Dry Fit V-Nick'],1.0
+188,['Dry Fit V-Nick'],->,"['Swimming Shirt', 'Tech Pants']",0.7777777777777777
+189,['Tech Pants'],->,"['Swimming Shirt', 'Dry Fit V-Nick']",0.7777777777777777
+190,['Swimming Shirt'],->,"['Dry Fit V-Nick', 'Tech Pants']",0.6363636363636362
+191,"['Rash Guard', 'Running Shoe']",->,['Swimming Shirt'],0.8571428571428572
+192,"['Swimming Shirt', 'Running Shoe']",->,['Rash Guard'],1.0
+193,"['Swimming Shirt', 'Rash Guard']",->,['Running Shoe'],0.6
+194,['Rash Guard'],->,"['Swimming Shirt', 'Running Shoe']",0.5
+195,['Swimming Shirt'],->,"['Rash Guard', 'Running Shoe']",0.5454545454545454
+196,"['Sweatshirts', 'Running Shoe', 'Socks']",->,['Modern Pants'],0.8
+197,"['Sweatshirts', 'Modern Pants', 'Socks']",->,['Running Shoe'],0.888888888888889
+198,"['Sweatshirts', 'Modern Pants', 'Running Shoe']",->,['Socks'],0.888888888888889
+199,"['Modern Pants', 'Running Shoe', 'Socks']",->,['Sweatshirts'],1.0
+200,"['Sweatshirts', 'Socks']",->,"['Modern Pants', 'Running Shoe']",0.6666666666666667
+201,"['Sweatshirts', 'Running Shoe']",->,"['Modern Pants', 'Socks']",0.7272727272727273
+202,"['Running Shoe', 'Socks']",->,"['Sweatshirts', 'Modern Pants']",0.7272727272727273
+203,"['Sweatshirts', 'Modern Pants']",->,"['Running Shoe', 'Socks']",0.8
+204,"['Modern Pants', 'Socks']",->,"['Sweatshirts', 'Running Shoe']",0.888888888888889
+205,"['Modern Pants', 'Running Shoe']",->,"['Sweatshirts', 'Socks']",0.888888888888889
+206,['Sweatshirts'],->,"['Modern Pants', 'Running Shoe', 'Socks']",0.6153846153846154
+207,['Socks'],->,"['Sweatshirts', 'Modern Pants', 'Running Shoe']",0.6153846153846154
+208,['Running Shoe'],->,"['Sweatshirts', 'Modern Pants', 'Socks']",0.5714285714285715
+209,['Modern Pants'],->,"['Sweatshirts', 'Running Shoe', 'Socks']",0.8
+210,"['Sweatshirts', 'Rash Guard', 'Socks']",->,['Modern Pants'],1.0
+211,"['Sweatshirts', 'Modern Pants', 'Socks']",->,['Rash Guard'],0.6666666666666666
+212,"['Sweatshirts', 'Modern Pants', 'Rash Guard']",->,['Socks'],1.0
+213,"['Modern Pants', 'Rash Guard', 'Socks']",->,['Sweatshirts'],1.0
+214,"['Sweatshirts', 'Socks']",->,"['Modern Pants', 'Rash Guard']",0.5
+215,"['Sweatshirts', 'Rash Guard']",->,"['Modern Pants', 'Socks']",1.0
+216,"['Rash Guard', 'Socks']",->,"['Sweatshirts', 'Modern Pants']",1.0
+217,"['Sweatshirts', 'Modern Pants']",->,"['Rash Guard', 'Socks']",0.6
+218,"['Modern Pants', 'Socks']",->,"['Sweatshirts', 'Rash Guard']",0.6666666666666666
+219,"['Modern Pants', 'Rash Guard']",->,"['Sweatshirts', 'Socks']",1.0
+220,['Sweatshirts'],->,"['Modern Pants', 'Rash Guard', 'Socks']",0.4615384615384615
+221,['Socks'],->,"['Sweatshirts', 'Modern Pants', 'Rash Guard']",0.4615384615384615
+222,['Rash Guard'],->,"['Sweatshirts', 'Modern Pants', 'Socks']",0.5
+223,['Modern Pants'],->,"['Sweatshirts', 'Rash Guard', 'Socks']",0.6
+224,"['Sweatshirts', 'Tech Pants', 'Socks']",->,['Modern Pants'],1.0
+225,"['Sweatshirts', 'Tech Pants', 'Modern Pants']",->,['Socks'],1.0
+226,"['Tech Pants', 'Modern Pants', 'Socks']",->,['Sweatshirts'],1.0
+227,"['Sweatshirts', 'Modern Pants', 'Socks']",->,['Tech Pants'],0.6666666666666666
+228,"['Sweatshirts', 'Tech Pants']",->,"['Modern Pants', 'Socks']",1.0
+229,"['Tech Pants', 'Socks']",->,"['Sweatshirts', 'Modern Pants']",1.0
+230,"['Sweatshirts', 'Socks']",->,"['Tech Pants', 'Modern Pants']",0.5
+231,"['Tech Pants', 'Modern Pants']",->,"['Sweatshirts', 'Socks']",1.0
+232,"['Sweatshirts', 'Modern Pants']",->,"['Tech Pants', 'Socks']",0.6
+233,"['Modern Pants', 'Socks']",->,"['Sweatshirts', 'Tech Pants']",0.6666666666666666
+234,['Tech Pants'],->,"['Sweatshirts', 'Modern Pants', 'Socks']",0.6666666666666666
+235,['Sweatshirts'],->,"['Tech Pants', 'Modern Pants', 'Socks']",0.4615384615384615
+236,['Socks'],->,"['Sweatshirts', 'Tech Pants', 'Modern Pants']",0.4615384615384615
+237,['Modern Pants'],->,"['Sweatshirts', 'Tech Pants', 'Socks']",0.6
+238,"['Tech Pants', 'Rash Guard', 'Socks']",->,['Modern Pants'],1.0
+239,"['Tech Pants', 'Modern Pants', 'Socks']",->,['Rash Guard'],1.0
+240,"['Tech Pants', 'Modern Pants', 'Rash Guard']",->,['Socks'],1.0
+241,"['Modern Pants', 'Rash Guard', 'Socks']",->,['Tech Pants'],1.0
+242,"['Tech Pants', 'Socks']",->,"['Modern Pants', 'Rash Guard']",1.0
+243,"['Tech Pants', 'Rash Guard']",->,"['Modern Pants', 'Socks']",0.6666666666666666
+244,"['Rash Guard', 'Socks']",->,"['Tech Pants', 'Modern Pants']",1.0
+245,"['Tech Pants', 'Modern Pants']",->,"['Rash Guard', 'Socks']",1.0
+246,"['Modern Pants', 'Socks']",->,"['Tech Pants', 'Rash Guard']",0.6666666666666666
+247,"['Modern Pants', 'Rash Guard']",->,"['Tech Pants', 'Socks']",1.0
+248,['Tech Pants'],->,"['Modern Pants', 'Rash Guard', 'Socks']",0.6666666666666666
+249,['Socks'],->,"['Tech Pants', 'Modern Pants', 'Rash Guard']",0.4615384615384615
+250,['Rash Guard'],->,"['Tech Pants', 'Modern Pants', 'Socks']",0.5
+251,['Modern Pants'],->,"['Tech Pants', 'Rash Guard', 'Socks']",0.6
+252,"['Sweatshirts', 'Tech Pants', 'Rash Guard']",->,['Modern Pants'],1.0
+253,"['Sweatshirts', 'Tech Pants', 'Modern Pants']",->,['Rash Guard'],1.0
+254,"['Tech Pants', 'Modern Pants', 'Rash Guard']",->,['Sweatshirts'],1.0
+255,"['Sweatshirts', 'Modern Pants', 'Rash Guard']",->,['Tech Pants'],1.0
+256,"['Sweatshirts', 'Tech Pants']",->,"['Modern Pants', 'Rash Guard']",1.0
+257,"['Tech Pants', 'Rash Guard']",->,"['Sweatshirts', 'Modern Pants']",0.6666666666666666
+258,"['Sweatshirts', 'Rash Guard']",->,"['Tech Pants', 'Modern Pants']",1.0
+259,"['Tech Pants', 'Modern Pants']",->,"['Sweatshirts', 'Rash Guard']",1.0
+260,"['Sweatshirts', 'Modern Pants']",->,"['Tech Pants', 'Rash Guard']",0.6
+261,"['Modern Pants', 'Rash Guard']",->,"['Sweatshirts', 'Tech Pants']",1.0
+262,['Tech Pants'],->,"['Sweatshirts', 'Modern Pants', 'Rash Guard']",0.6666666666666666
+263,['Sweatshirts'],->,"['Tech Pants', 'Modern Pants', 'Rash Guard']",0.4615384615384615
+264,['Rash Guard'],->,"['Sweatshirts', 'Tech Pants', 'Modern Pants']",0.5
+265,['Modern Pants'],->,"['Sweatshirts', 'Tech Pants', 'Rash Guard']",0.6
+266,"['Sweatshirts', 'Tech Pants', 'Socks']",->,['Rash Guard'],1.0
+267,"['Sweatshirts', 'Tech Pants', 'Rash Guard']",->,['Socks'],1.0
+268,"['Tech Pants', 'Rash Guard', 'Socks']",->,['Sweatshirts'],1.0
+269,"['Sweatshirts', 'Rash Guard', 'Socks']",->,['Tech Pants'],1.0
+270,"['Sweatshirts', 'Tech Pants']",->,"['Rash Guard', 'Socks']",1.0
+271,"['Tech Pants', 'Socks']",->,"['Sweatshirts', 'Rash Guard']",1.0
+272,"['Sweatshirts', 'Socks']",->,"['Tech Pants', 'Rash Guard']",0.5
+273,"['Tech Pants', 'Rash Guard']",->,"['Sweatshirts', 'Socks']",0.6666666666666666
+274,"['Sweatshirts', 'Rash Guard']",->,"['Tech Pants', 'Socks']",1.0
+275,"['Rash Guard', 'Socks']",->,"['Sweatshirts', 'Tech Pants']",1.0
+276,['Tech Pants'],->,"['Sweatshirts', 'Rash Guard', 'Socks']",0.6666666666666666
+277,['Sweatshirts'],->,"['Tech Pants', 'Rash Guard', 'Socks']",0.4615384615384615
+278,['Socks'],->,"['Sweatshirts', 'Tech Pants', 'Rash Guard']",0.4615384615384615
+279,['Rash Guard'],->,"['Sweatshirts', 'Tech Pants', 'Socks']",0.5
+280,"['Swimming Shirt', 'Tech Pants', 'Rash Guard']",->,['Hoodies'],0.8571428571428572
+281,"['Swimming Shirt', 'Hoodies', 'Tech Pants']",->,['Rash Guard'],1.0
+282,"['Hoodies', 'Tech Pants', 'Rash Guard']",->,['Swimming Shirt'],0.7499999999999999
+283,"['Swimming Shirt', 'Hoodies', 'Rash Guard']",->,['Tech Pants'],1.0
+284,"['Swimming Shirt', 'Tech Pants']",->,"['Hoodies', 'Rash Guard']",0.8571428571428572
+285,"['Tech Pants', 'Rash Guard']",->,"['Swimming Shirt', 'Hoodies']",0.6666666666666666
+286,"['Swimming Shirt', 'Rash Guard']",->,"['Hoodies', 'Tech Pants']",0.6
+287,"['Hoodies', 'Tech Pants']",->,"['Swimming Shirt', 'Rash Guard']",0.7499999999999999
+288,"['Swimming Shirt', 'Hoodies']",->,"['Tech Pants', 'Rash Guard']",1.0
+289,"['Hoodies', 'Rash Guard']",->,"['Swimming Shirt', 'Tech Pants']",0.7499999999999999
+290,['Tech Pants'],->,"['Swimming Shirt', 'Hoodies', 'Rash Guard']",0.6666666666666666
+291,['Swimming Shirt'],->,"['Hoodies', 'Tech Pants', 'Rash Guard']",0.5454545454545454
+292,['Rash Guard'],->,"['Swimming Shirt', 'Hoodies', 'Tech Pants']",0.5
+293,['Hoodies'],->,"['Swimming Shirt', 'Tech Pants', 'Rash Guard']",0.7499999999999999
+294,"['Hoodies', 'Tech Pants', 'Rash Guard']",->,['Dry Fit V-Nick'],0.8749999999999999
+295,"['Dry Fit V-Nick', 'Tech Pants', 'Rash Guard']",->,['Hoodies'],0.8749999999999999
+296,"['Dry Fit V-Nick', 'Hoodies', 'Tech Pants']",->,['Rash Guard'],1.0
+297,"['Dry Fit V-Nick', 'Hoodies', 'Rash Guard']",->,['Tech Pants'],1.0
+298,"['Tech Pants', 'Rash Guard']",->,"['Dry Fit V-Nick', 'Hoodies']",0.7777777777777777
+299,"['Hoodies', 'Tech Pants']",->,"['Dry Fit V-Nick', 'Rash Guard']",0.8749999999999999
+300,"['Hoodies', 'Rash Guard']",->,"['Dry Fit V-Nick', 'Tech Pants']",0.8749999999999999
+301,"['Dry Fit V-Nick', 'Tech Pants']",->,"['Hoodies', 'Rash Guard']",0.8749999999999999
+302,"['Dry Fit V-Nick', 'Rash Guard']",->,"['Hoodies', 'Tech Pants']",0.7777777777777777
+303,"['Dry Fit V-Nick', 'Hoodies']",->,"['Tech Pants', 'Rash Guard']",1.0
+304,['Tech Pants'],->,"['Dry Fit V-Nick', 'Hoodies', 'Rash Guard']",0.7777777777777777
+305,['Rash Guard'],->,"['Dry Fit V-Nick', 'Hoodies', 'Tech Pants']",0.5833333333333334
+306,['Hoodies'],->,"['Dry Fit V-Nick', 'Tech Pants', 'Rash Guard']",0.8749999999999999
+307,['Dry Fit V-Nick'],->,"['Hoodies', 'Tech Pants', 'Rash Guard']",0.7777777777777777
+308,"['Swimming Shirt', 'Hoodies', 'Rash Guard']",->,['Dry Fit V-Nick'],1.0
+309,"['Dry Fit V-Nick', 'Rash Guard', 'Swimming Shirt']",->,['Hoodies'],0.7499999999999999
+310,"['Dry Fit V-Nick', 'Hoodies', 'Swimming Shirt']",->,['Rash Guard'],1.0
+311,"['Dry Fit V-Nick', 'Hoodies', 'Rash Guard']",->,['Swimming Shirt'],0.8571428571428572
+312,"['Swimming Shirt', 'Rash Guard']",->,"['Dry Fit V-Nick', 'Hoodies']",0.6
+313,"['Swimming Shirt', 'Hoodies']",->,"['Dry Fit V-Nick', 'Rash Guard']",1.0
+314,"['Hoodies', 'Rash Guard']",->,"['Dry Fit V-Nick', 'Swimming Shirt']",0.7499999999999999
+315,"['Dry Fit V-Nick', 'Swimming Shirt']",->,"['Hoodies', 'Rash Guard']",0.7499999999999999
+316,"['Dry Fit V-Nick', 'Rash Guard']",->,"['Swimming Shirt', 'Hoodies']",0.6666666666666666
+317,"['Dry Fit V-Nick', 'Hoodies']",->,"['Swimming Shirt', 'Rash Guard']",0.8571428571428572
+318,['Swimming Shirt'],->,"['Dry Fit V-Nick', 'Hoodies', 'Rash Guard']",0.5454545454545454
+319,['Rash Guard'],->,"['Dry Fit V-Nick', 'Hoodies', 'Swimming Shirt']",0.5
+320,['Hoodies'],->,"['Dry Fit V-Nick', 'Rash Guard', 'Swimming Shirt']",0.7499999999999999
+321,['Dry Fit V-Nick'],->,"['Swimming Shirt', 'Hoodies', 'Rash Guard']",0.6666666666666666
+322,"['Swimming Shirt', 'Hoodies', 'Tech Pants']",->,['Dry Fit V-Nick'],1.0
+323,"['Dry Fit V-Nick', 'Tech Pants', 'Swimming Shirt']",->,['Hoodies'],0.8571428571428572
+324,"['Dry Fit V-Nick', 'Hoodies', 'Tech Pants']",->,['Swimming Shirt'],0.8571428571428572
+325,"['Dry Fit V-Nick', 'Hoodies', 'Swimming Shirt']",->,['Tech Pants'],1.0
+326,"['Swimming Shirt', 'Tech Pants']",->,"['Dry Fit V-Nick', 'Hoodies']",0.8571428571428572
+327,"['Hoodies', 'Tech Pants']",->,"['Dry Fit V-Nick', 'Swimming Shirt']",0.7499999999999999
+328,"['Swimming Shirt', 'Hoodies']",->,"['Dry Fit V-Nick', 'Tech Pants']",1.0
+329,"['Dry Fit V-Nick', 'Tech Pants']",->,"['Swimming Shirt', 'Hoodies']",0.7499999999999999
+330,"['Dry Fit V-Nick', 'Swimming Shirt']",->,"['Hoodies', 'Tech Pants']",0.7499999999999999
+331,"['Dry Fit V-Nick', 'Hoodies']",->,"['Swimming Shirt', 'Tech Pants']",0.8571428571428572
+332,['Tech Pants'],->,"['Dry Fit V-Nick', 'Hoodies', 'Swimming Shirt']",0.6666666666666666
+333,['Swimming Shirt'],->,"['Dry Fit V-Nick', 'Hoodies', 'Tech Pants']",0.5454545454545454
+334,['Hoodies'],->,"['Dry Fit V-Nick', 'Tech Pants', 'Swimming Shirt']",0.7499999999999999
+335,['Dry Fit V-Nick'],->,"['Swimming Shirt', 'Hoodies', 'Tech Pants']",0.6666666666666666
+336,"['Swimming Shirt', 'Tech Pants', 'Rash Guard']",->,['Dry Fit V-Nick'],1.0
+337,"['Dry Fit V-Nick', 'Tech Pants', 'Swimming Shirt']",->,['Rash Guard'],1.0
+338,"['Dry Fit V-Nick', 'Tech Pants', 'Rash Guard']",->,['Swimming Shirt'],0.8749999999999999
+339,"['Dry Fit V-Nick', 'Rash Guard', 'Swimming Shirt']",->,['Tech Pants'],0.8749999999999999
+340,"['Swimming Shirt', 'Tech Pants']",->,"['Dry Fit V-Nick', 'Rash Guard']",1.0
+341,"['Tech Pants', 'Rash Guard']",->,"['Dry Fit V-Nick', 'Swimming Shirt']",0.7777777777777777
+342,"['Swimming Shirt', 'Rash Guard']",->,"['Dry Fit V-Nick', 'Tech Pants']",0.7
+343,"['Dry Fit V-Nick', 'Tech Pants']",->,"['Swimming Shirt', 'Rash Guard']",0.8749999999999999
+344,"['Dry Fit V-Nick', 'Swimming Shirt']",->,"['Tech Pants', 'Rash Guard']",0.8749999999999999
+345,"['Dry Fit V-Nick', 'Rash Guard']",->,"['Swimming Shirt', 'Tech Pants']",0.7777777777777777
+346,['Tech Pants'],->,"['Dry Fit V-Nick', 'Rash Guard', 'Swimming Shirt']",0.7777777777777777
+347,['Swimming Shirt'],->,"['Dry Fit V-Nick', 'Tech Pants', 'Rash Guard']",0.6363636363636362
+348,['Rash Guard'],->,"['Dry Fit V-Nick', 'Tech Pants', 'Swimming Shirt']",0.5833333333333334
+349,['Dry Fit V-Nick'],->,"['Swimming Shirt', 'Tech Pants', 'Rash Guard']",0.7777777777777777
+350,"['Sweatshirts', 'Tech Pants', 'Rash Guard', 'Socks']",->,['Modern Pants'],1.0
+351,"['Sweatshirts', 'Tech Pants', 'Modern Pants', 'Socks']",->,['Rash Guard'],1.0
+352,"['Sweatshirts', 'Tech Pants', 'Modern Pants', 'Rash Guard']",->,['Socks'],1.0
+353,"['Tech Pants', 'Modern Pants', 'Rash Guard', 'Socks']",->,['Sweatshirts'],1.0
+354,"['Sweatshirts', 'Modern Pants', 'Rash Guard', 'Socks']",->,['Tech Pants'],1.0
+355,"['Sweatshirts', 'Tech Pants', 'Socks']",->,"['Modern Pants', 'Rash Guard']",1.0
+356,"['Sweatshirts', 'Tech Pants', 'Rash Guard']",->,"['Modern Pants', 'Socks']",1.0
+357,"['Tech Pants', 'Rash Guard', 'Socks']",->,"['Sweatshirts', 'Modern Pants']",1.0
+358,"['Sweatshirts', 'Rash Guard', 'Socks']",->,"['Tech Pants', 'Modern Pants']",1.0
+359,"['Sweatshirts', 'Tech Pants', 'Modern Pants']",->,"['Rash Guard', 'Socks']",1.0
+360,"['Tech Pants', 'Modern Pants', 'Socks']",->,"['Sweatshirts', 'Rash Guard']",1.0
+361,"['Sweatshirts', 'Modern Pants', 'Socks']",->,"['Tech Pants', 'Rash Guard']",0.6666666666666666
+362,"['Tech Pants', 'Modern Pants', 'Rash Guard']",->,"['Sweatshirts', 'Socks']",1.0
+363,"['Sweatshirts', 'Modern Pants', 'Rash Guard']",->,"['Tech Pants', 'Socks']",1.0
+364,"['Modern Pants', 'Rash Guard', 'Socks']",->,"['Sweatshirts', 'Tech Pants']",1.0
+365,"['Sweatshirts', 'Tech Pants']",->,"['Modern Pants', 'Rash Guard', 'Socks']",1.0
+366,"['Tech Pants', 'Socks']",->,"['Sweatshirts', 'Modern Pants', 'Rash Guard']",1.0
+367,"['Sweatshirts', 'Socks']",->,"['Tech Pants', 'Modern Pants', 'Rash Guard']",0.5
+368,"['Tech Pants', 'Rash Guard']",->,"['Sweatshirts', 'Modern Pants', 'Socks']",0.6666666666666666
+369,"['Sweatshirts', 'Rash Guard']",->,"['Tech Pants', 'Modern Pants', 'Socks']",1.0
+370,"['Rash Guard', 'Socks']",->,"['Sweatshirts', 'Tech Pants', 'Modern Pants']",1.0
+371,"['Tech Pants', 'Modern Pants']",->,"['Sweatshirts', 'Rash Guard', 'Socks']",1.0
+372,"['Sweatshirts', 'Modern Pants']",->,"['Tech Pants', 'Rash Guard', 'Socks']",0.6
+373,"['Modern Pants', 'Socks']",->,"['Sweatshirts', 'Tech Pants', 'Rash Guard']",0.6666666666666666
+374,"['Modern Pants', 'Rash Guard']",->,"['Sweatshirts', 'Tech Pants', 'Socks']",1.0
+375,['Tech Pants'],->,"['Modern Pants', 'Rash Guard', 'Socks', 'Sweatshirts']",0.6666666666666666
+376,['Sweatshirts'],->,"['Modern Pants', 'Rash Guard', 'Socks', 'Tech Pants']",0.4615384615384615
+377,['Socks'],->,"['Modern Pants', 'Rash Guard', 'Sweatshirts', 'Tech Pants']",0.4615384615384615
+378,['Rash Guard'],->,"['Modern Pants', 'Socks', 'Sweatshirts', 'Tech Pants']",0.5
+379,['Modern Pants'],->,"['Rash Guard', 'Socks', 'Sweatshirts', 'Tech Pants']",0.6
+380,"['Swimming Shirt', 'Hoodies', 'Tech Pants', 'Rash Guard']",->,['Dry Fit V-Nick'],1.0
+381,"['Dry Fit V-Nick', 'Tech Pants', 'Rash Guard', 'Swimming Shirt']",->,['Hoodies'],0.8571428571428572
+382,"['Dry Fit V-Nick', 'Hoodies', 'Tech Pants', 'Swimming Shirt']",->,['Rash Guard'],1.0
+383,"['Dry Fit V-Nick', 'Hoodies', 'Tech Pants', 'Rash Guard']",->,['Swimming Shirt'],0.8571428571428572
+384,"['Dry Fit V-Nick', 'Hoodies', 'Rash Guard', 'Swimming Shirt']",->,['Tech Pants'],1.0
+385,"['Swimming Shirt', 'Tech Pants', 'Rash Guard']",->,"['Dry Fit V-Nick', 'Hoodies']",0.8571428571428572
+386,"['Swimming Shirt', 'Hoodies', 'Tech Pants']",->,"['Dry Fit V-Nick', 'Rash Guard']",1.0
+387,"['Hoodies', 'Tech Pants', 'Rash Guard']",->,"['Dry Fit V-Nick', 'Swimming Shirt']",0.7499999999999999
+388,"['Swimming Shirt', 'Hoodies', 'Rash Guard']",->,"['Dry Fit V-Nick', 'Tech Pants']",1.0
+389,"['Dry Fit V-Nick', 'Tech Pants', 'Swimming Shirt']",->,"['Hoodies', 'Rash Guard']",0.8571428571428572
+390,"['Dry Fit V-Nick', 'Tech Pants', 'Rash Guard']",->,"['Swimming Shirt', 'Hoodies']",0.7499999999999999
+391,"['Dry Fit V-Nick', 'Rash Guard', 'Swimming Shirt']",->,"['Hoodies', 'Tech Pants']",0.7499999999999999
+392,"['Dry Fit V-Nick', 'Hoodies', 'Tech Pants']",->,"['Swimming Shirt', 'Rash Guard']",0.8571428571428572
+393,"['Dry Fit V-Nick', 'Hoodies', 'Swimming Shirt']",->,"['Tech Pants', 'Rash Guard']",1.0
+394,"['Dry Fit V-Nick', 'Hoodies', 'Rash Guard']",->,"['Swimming Shirt', 'Tech Pants']",0.8571428571428572
+395,"['Swimming Shirt', 'Tech Pants']",->,"['Dry Fit V-Nick', 'Hoodies', 'Rash Guard']",0.8571428571428572
+396,"['Tech Pants', 'Rash Guard']",->,"['Dry Fit V-Nick', 'Hoodies', 'Swimming Shirt']",0.6666666666666666
+397,"['Swimming Shirt', 'Rash Guard']",->,"['Dry Fit V-Nick', 'Hoodies', 'Tech Pants']",0.6
+398,"['Hoodies', 'Tech Pants']",->,"['Dry Fit V-Nick', 'Rash Guard', 'Swimming Shirt']",0.7499999999999999
+399,"['Swimming Shirt', 'Hoodies']",->,"['Dry Fit V-Nick', 'Tech Pants', 'Rash Guard']",1.0
+400,"['Hoodies', 'Rash Guard']",->,"['Dry Fit V-Nick', 'Tech Pants', 'Swimming Shirt']",0.7499999999999999
+401,"['Dry Fit V-Nick', 'Tech Pants']",->,"['Swimming Shirt', 'Hoodies', 'Rash Guard']",0.7499999999999999
+402,"['Dry Fit V-Nick', 'Swimming Shirt']",->,"['Hoodies', 'Tech Pants', 'Rash Guard']",0.7499999999999999
+403,"['Dry Fit V-Nick', 'Rash Guard']",->,"['Swimming Shirt', 'Hoodies', 'Tech Pants']",0.6666666666666666
+404,"['Dry Fit V-Nick', 'Hoodies']",->,"['Swimming Shirt', 'Tech Pants', 'Rash Guard']",0.8571428571428572
+405,['Tech Pants'],->,"['Dry Fit V-Nick', 'Hoodies', 'Rash Guard', 'Swimming Shirt']",0.6666666666666666
+406,['Swimming Shirt'],->,"['Dry Fit V-Nick', 'Hoodies', 'Rash Guard', 'Tech Pants']",0.5454545454545454
+407,['Rash Guard'],->,"['Dry Fit V-Nick', 'Hoodies', 'Swimming Shirt', 'Tech Pants']",0.5
+408,['Hoodies'],->,"['Dry Fit V-Nick', 'Rash Guard', 'Swimming Shirt', 'Tech Pants']",0.7499999999999999
+409,['Dry Fit V-Nick'],->,"['Hoodies', 'Rash Guard', 'Swimming Shirt', 'Tech Pants']",0.6666666666666666
